@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.35.14
- * Tue Dec  9 16:23:01 2014
+ * Tue Dec  9 17:20:00 2014
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_IP6_NF_MATCH_AH 1
@@ -778,6 +778,7 @@
 #define CONFIG_USB_DWC_OTG 1
 #define CONFIG_RCU_FANOUT 32
 #define CONFIG_BITREVERSE 1
+#define CONFIG_IOSCHED_BFQ 1
 #define CONFIG_BLK_DEV_RAM_SIZE 65536
 #define CONFIG_CRYPTO_PCOMP 1
 #define CONFIG_CRYPTO_BLKCIPHER 1

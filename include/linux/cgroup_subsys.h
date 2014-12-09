@@ -47,6 +47,13 @@ SUBSYS(mem_cgroup)
 SUBSYS(devices)
 #endif
 
+
+/* */
+
+#ifdef CONFIG_CGROUP_BFQIO
+SUBSYS(bfqio)
+#endif
+
 /* */
 
 #ifdef CONFIG_CGROUP_FREEZER
