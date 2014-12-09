@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.35.14
- * Tue Dec  9 15:50:28 2014
+ * Tue Dec  9 16:23:01 2014
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_IP6_NF_MATCH_AH 1
@@ -318,6 +318,7 @@
 #define CONFIG_RTC_HCTOSYS 1
 #define CONFIG_SECURITY_NETWORK 1
 #define CONFIG_SERIAL_CORE_CONSOLE 1
+#define CONFIG_IOSCHED_SIO 1
 #define CONFIG_ANDROID 1
 #define CONFIG_SLUB_DEBUG 1
 #define CONFIG_NET_SCH_INGRESS 1
@@ -511,6 +512,7 @@
 #define CONFIG_KALLSYMS_ALL 1
 #define CONFIG_ANDROID_TIMED_OUTPUT 1
 #define CONFIG_LIBCRC32C 1
+#define CONFIG_IOSCHED_VR 1
 #define CONFIG_CRYPTO_SHA256 1
 #define CONFIG_INET_TCP_DIAG 1
 #define CONFIG_USB_GADGET_USE_DMA_MAP 1
