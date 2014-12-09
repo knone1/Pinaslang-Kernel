@@ -67,9 +67,6 @@ void device_pm_init(struct device *dev)
 	init_completion(&dev->power.completion);
 	complete_all(&dev->power.completion);
 	pm_runtime_init(dev);
-
-	if (error)
-	 async_error = error;
 }
 
 /**
@@ -943,6 +940,9 @@ static int __device_suspend(struct device *dev, pm_message_t state, bool async)
  End:
 	device_unlock(dev);
 	complete_all(&dev->power.completion);
+
+	if (error)
+		async_error = error;
 
 	return error;
 }
