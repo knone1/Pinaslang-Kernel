@@ -1,8 +1,8 @@
-/* This file is auto generated, version 12 */
+/* This file is auto generated, version 13 */
 /*  PREEMPT */
 #define UTS_MACHINE "arm"
-#define UTS_VERSION "#12 PREEMPT Tue Dec 9 14:12:30 PHT 2014"
-#define LINUX_COMPILE_TIME "14:12:30"
+#define UTS_VERSION "#13 PREEMPT Tue Dec 9 15:55:29 PHT 2014"
+#define LINUX_COMPILE_TIME "15:55:29"
 #define LINUX_COMPILE_BY "root"
 #define LINUX_COMPILE_HOST "PinasLang"
 #define LINUX_COMPILE_DOMAIN "(none)"
