@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.35.14
- * Tue Dec  9 17:20:00 2014
+ * Wed Dec 10 16:05:20 2014
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_IP6_NF_MATCH_AH 1
@@ -681,6 +681,7 @@
 #define CONFIG_CGROUP_DEBUG 1
 #define CONFIG_SENSORS_MMC328X 1
 #define CONFIG_WIRELESS_EXT 1
+#define CONFIG_TLS_USERSPACE_EMUL 1
 #define CONFIG_ANDROID_LOGGER 1
 #define CONFIG_RWSEM_GENERIC_SPINLOCK 1
 #define CONFIG_BCM215XX_PM 1
